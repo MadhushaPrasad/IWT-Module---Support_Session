@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interface</title>
+</head>
+<body>
+<div>
+    <form action="">
+        <label for="start">Enter Start Value : </label>
+        <input id="start" type="text"><br><br>
+        <label for="end">Enter Start End : </label>
+        <input id="end" type="text">
+        <br><br>
+        <button onclick="calculateSum()" type="button">Calculate</button>
+        <br><br><br>
+        <p id="oodValues"></p>
+        <p id="sumOodValues"></p>
+        <p id="evenValues"></p>
+        <p id="sumEvenValues"></p>
+    </form>
+</div>
+<script>
+    function calculateSum() {
+        var startNumber = document.getElementById('start').value;
+        var endNumber = document.getElementById('end').value;
+
+        var counter = parseInt(startNumber);
+
+        var oddValues = [];
+        var evenValues = [];
+
+        var sumOfOdd = 0;
+        var sumOfEven = 0;
+
+        while (counter <= parseInt(endNumber)) {
+            var number = counter % 2;
+            if (number === 1) {
+                oddValues.push(counter);
+                sumOfOdd += counter;
+            } else {
+                evenValues.push(counter);
+                sumOfEven += counter;
+            }
+            counter++;
+        }
+        console.log(oddValues);
+        console.log(evenValues);
+
+        document.getElementById('oodValues').innerText = "ODD values from " + startNumber +
+            " to " + endNumber + " are " + oddValues;
+
+        document.getElementById('sumOodValues').innerText = "Sum of ODD values from " + startNumber +
+            " to " + endNumber + " is " + sumOfOdd;
+
+        document.getElementById('evenValues').innerText = "Even values from " + startNumber +
+            " to " + endNumber + " are " + evenValues;
+
+        document.getElementById('sumEvenValues').innerText = "Sum of Even values from " + startNumber +
+            " to " + endNumber + " is " + sumOfEven;
+    }
+</script>
+</body>
+</html>
