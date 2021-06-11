@@ -28,11 +28,13 @@ session_start();
 <br>
 <table>
     <thead>
-    <th>User Name</th>
-    <th>First Name</th>
-    <th>Last Name</th>
-    <th>Email</th>
-    <th>Password</th>
+    <tr>
+        <th>User Name</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Password</th>
+    </tr>
     </thead>
     <tbody>
     <tr>
