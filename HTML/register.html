@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Register</title>
+    <style>
+        form {
+            display: table;
+        }
+
+        form div {
+            display: table-row;
+        }
+
+        form div label {
+            display: table-cell;
+        }
+
+        form div input {
+            display: table-cell;
+        }
+
+    </style>
+</head>
+<body>
+
+<h3 style="text-align: center">Student Registration form</h3><br>
+
+<div style="display: flex;justify-content: center">
+    <form action="">
+
+        <div>
+            <label for="firstName">First Name</label>
+            <input id="firstName" name="firstName" type="text"><br><br>
+        </div>
+
+        <div>
+            <label for="lastName">Last Name</label>
+            <input id="lastName" name="lastName" type="text"><br><br>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <p style="display: table-row">
+                <input id="male" name="gender" type="radio" value="male">
+                <label for="male">Male</label>
+                <input id="female" name="gender" type="radio" value="female">
+                <label for="female">Female</label><br><br>
+            </p>
+        </div>
+
+        <div>
+            <label for="address">address</label>
+            <textarea id="address" name="gender" value="female"></textarea><br><br>
+        </div>
+        <div>
+            <label for="contactNumber">Contact Number</label>
+            <input id="contactNumber" name="contactNumber" type="text"><br><br>
+        </div>
+
+        <div>
+            <label for="email">Educational Qualifications</label>
+
+            <p style="display: table-row">
+                <input id="ol" name="ol" type="checkbox">
+                <label for="ol">O/L</label>
+
+                <input id="al" name="al" type="checkbox">
+                <label for="al">A/L</label>
+            </p>
+        </div>
+
+        <br><br>
+
+    </form>
+</div>
+
+
+<div style="text-align: center">
+    <input type="submit" value="Submit"> &nbsp; <input type="submit" value="Reset">
+</div>
+
+<p style="text-align: center">Go <a href="index.html">Back</a></p>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session</title>
+    <!--    external-->
+    <!--    <script type="application/javascript" src="function.js"></script>-->
+    <script>
+        window.onload = function () {
+            alert('hello');
+        };
+    </script>
+</head>
+<body>
+
+<!--inline
+<script>
+    var a = 6;
+    if (a === 0) {
+        document.write('Hello');
+    } else if (a === 1) {
+        document.write('Hi');
+    } else if (a === 2) {
+        document.write('hee');
+    } else {
+        document.write('else part');
+    }
+</script>-->
+
+<!--<script>-->
+<!--    var a = 8;-->
+<!--    switch (a) {-->
+<!--        case 1:-->
+<!--            document.write("Value is 1");-->
+<!--            break;-->
+<!--        case 2:-->
+<!--            document.write("Value is 2");-->
+<!--            break;-->
+<!--        case 3:-->
+<!--            document.write("Value is 3");-->
+<!--            break;-->
+<!--        case 4:-->
+<!--            document.write("Value is 4");-->
+<!--            break;-->
+<!--        case 5:-->
+<!--            document.write("Value is 5");-->
+<!--            break;-->
+<!--        case 6:-->
+<!--            document.write("Value is 6");-->
+<!--            break;-->
+<!--        case 7:-->
+<!--            document.write("Value is 7");-->
+<!--            break;-->
+<!--        default:-->
+<!--            document.write("Default Part");-->
+<!--    }-->
+<!--</script>-->
+<!--
+
+<script>
+/*    var a = 0;
+    const b = 0;
+    let c = 0;
+
+
+    document.write(a);
+    document.write(b);
+    a = 10;
+    // b = 1;
+    document.write(a);
+    document.write(c);
+    c = 5;
+    document.write(c);
+    a = 20;
+    document.write(a);*/
+
+    var datSet = ['orange','apple','Mango'];//array
+
+    var count = 0;
+
+
+    while (datSet.length !== count) {
+        document.write(datSet[count]);
+        document.write('<br>');
+        count++;
+    }
+
+    datSet[3] = 'Banana';
+
+    document.write(datSet);
+
+
+</script>
+-->
+<!--
+
+<script>
+    var datSet = ['orange', 'apple', 'Mango'];//array elements 03
+
+    for (var i = 0; i < 3; i++) {
+        if (datSet[i] === 'apple') {
+            continue;
+        }
+        document.write(datSet[i]);
+        document.write('<br>');
+    }
+</script>
+-->
+
+<h1 id="hello" onclick="setColor()">
+    Hello
+</h1>
+
+<!--function-->
+<script>
+    document.getElementById('hello').style.cursor = 'pointer';
+
+    function setColor() {
+        document.getElementById('hello').style.color = 'green';
+        document.getElementById('hello').innerHTML = 'Hello SLIIT';
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    background-color: orange;
+    margin: 20px;
+
+}
+
+
+.header {
+
+    width: 100%;
+    height: 60px;
+    background-color: #eeeeee;
+}
+
+.nav {
+    width: 300px;
+    height: 500px;
+    background-color: green;
+    margin: 25px 25px 25px 0;
+}
+
+.section {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    width: 600px;
+    height: 500px;
+    background-color: red;
+    margin: 25px;
+}
+
+.secHeader {
+    width: 100%;
+    height: 100px;
+    background-color: cyan;
+}
+
+.article {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.secFooter {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+.aside {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 310px;
+    height: 500px;
+    background-color: darkblue;
+    margin: 25px 0 25px 0;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: purple;
+}

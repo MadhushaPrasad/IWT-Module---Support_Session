@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript</title>
+</head>
+<body>
+
+<!--<script>
+    //data types
+    /*1.Numerical
+        1.Integers –1, 2, 3, -56, -135, 3464
+        2.Floating point/Decimal –34.46, -65.135
+    2.String
+        Single characters – "a", "b", "c", "2", "7"
+        Multiple characters – "abc", "12/04/2012", "34"
+    3.Boolean –true / false
+    4.Null
+    5.Undefined
+    6.Object*/
+
+    /* // Integers
+     var integer=10;
+
+     // floating
+     var floting=10.0;
+
+     //String
+     var s1="double quto";
+     var s2='sigle quto';
+
+     // boolean
+     var b1=true;
+     var b2=false;
+     */
+
+</script>-->
+
+
+<!--Simple iF-Else-->
+<p id="count">1</p>
+<!--inline Simple if-else-->
+<script>
+    if (false) {
+        document.write("Madhusha");
+    } else {
+        document.write("Prasad");
+    }
+</script>
+
+<hr>
+<!--Nested iF-Else-->
+<p id="nestedIf">2</p>
+<!--inline Nested if-else-->
+<script>
+    var ab = 0;
+    if (ab === 0) {
+        document.write("Madhusha");
+    } else if (ab === 1) {
+        document.write("Prasad");
+    } else if (ab === 3) {
+        document.write("Kamal");
+    }
+</script>
+<hr>
+<!--Switch-->
+<p id="switch">5</p>
+<!--inline Switch -->
+<script>
+    var name = 'Hi';
+
+    switch (name) {
+        case "Hello":
+            document.write("Hello");
+            break;
+        case "Hi":
+            document.write("Hi");
+            break;
+        default:
+            document.write("Default");
+    }
+</script>
+
+
+<!--While Loop-->
+<div id="while">
+    <br>Wile Loop
+    <br>
+    <!--inline script-->
+    <script>
+        var cn = 0;
+        const textAnime = ['red', 'green', 'blue', 'yellow', 'purple'];
+        while (textAnime.length > cn) {
+            document.write('<p>' + textAnime[cn] + '</p>');
+            cn++;
+        }
+    </script>
+</div>
+
+<!--For Loop-->
+<div id="for">
+    <br>For Loop
+    <br>
+    <!--inline script-->
+    <script>
+        for (var i = 1; i <= 10; i++) {
+            document.write("<br>");
+            document.write(i);
+            if (i === 3) {
+                continue;
+            }
+            document.write("<br>");
+            document.write("second " + i);
+        }
+    </script>
+</div>
+<!--
+<script>
+    // int a[5] = {"hello","h1"}; // C language array
+    var array = ['orange', 'apple', 'banana',12,25];
+
+    array[3] = "Mango";
+
+    document.write(array);
+</script>
+-->
+
+
+<!--
+
+eventHandling
+<input type="email" name="email" id="email">
+&lt;!&ndash;onclick event&ndash;&gt;
+<button type="button" onclick="getEmail()"> submit </button>
+
+<script>
+    window.onload = function () {
+       alert('Onload event Worked');
+    }
+</script>
+-->
+
+<!--external script-->
+<!--
+<script src="Simple_if_else_.js"></script>
+
+<script src="Nested_if-else.js"></script>
+
+<script src="Switch.js"></script>
+-->
+
+<script src="function.js"></script>
+</body>
+</html>

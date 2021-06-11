@@ -1,0 +1,63 @@
+/*Element Selector*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/*ID Selector*/
+#nav {
+    width: 250px;
+    height: 500px;
+    background-color: green;
+}
+
+#section {
+    position: absolute;
+    width: 870px;
+    height: 500px;
+    background-color: blue;
+    top: 60px;
+    left: 250px;
+}
+
+#section header {
+    width: 100%;
+    height: 70px;
+    background-color: cyan;
+}
+
+#section article {
+    width: 100%;
+    height: 329px;
+    background-color: pink;
+}
+
+#section footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+}
+
+
+/*class selector*/
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: purple;
+}
+
+.aside {
+    width: 250px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.mainFooter {
+    width: 100%;
+    height: 75px;
+    background-color: yellow;
+}

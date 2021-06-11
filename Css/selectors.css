@@ -1,0 +1,41 @@
+/*element selector*/
+h1 {
+    color: blue !important;
+}
+
+
+/*id selector*/
+#par {
+    color: orange;
+}
+
+/*class elector*/
+.par0 {
+    color: green;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100px;
+    color: red;
+}
+
+button {
+    width: 450px;
+    height: 30px;
+    background-color: green;
+}
+
+/*pseudo-class*/
+button :hover {
+    width: 200px;
+    height: 60px;
+    background-color: darkblue;
+}
+
+button:focus {
+    width: 200px;
+    height: 60px;
+    border-color: red;
+    background-color: orange;
+}
