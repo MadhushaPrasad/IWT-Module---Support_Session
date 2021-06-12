@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--multi Attribute-->
+<person id="2020" age="red">Samantha</person>
+
+        <!--Elements can be nested-->
+<student id="1221">
+<firstName>Madhusha</firstName>
+<lastName>Madhusha</lastName>
+<address>42/2,Kalutara South</address>
+<age>22</age>
+</student>
+
+<student id="1221">
+<firstName>Madhusha</firstName>
+<lastName>Madhusha</lastName>
+<address>42/2,Kalutara South</address>
+<age>22</age>
+</student>
