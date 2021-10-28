@@ -7,4 +7,4 @@
 <a href="https://www.php.net" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>
 </p>
 
-<img src='./3rd_June/img/session_image.jpg' height='200' alt="session Post"> <img src='./29th_Oct/img/WhatsApp%20Image%202021-10-20%20at%205.39.40%20PM.jpeg' height='200' alt="session Post">
+<img src='./3rd_June/img/session_image.jpg' height='500' alt="session Post"> <img src='./29th_Oct/img/WhatsApp%20Image%202021-10-20%20at%205.39.40%20PM.jpeg' height='500' alt="session Post">
