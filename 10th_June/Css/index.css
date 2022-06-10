@@ -1,0 +1,39 @@
+p {
+    color: red;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+#btnTest {
+    padding: 15px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#btnTest:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#btnTest :active {
+    background-color: red;
+    color: white;
+}
+
+.fossLogo {
+    width: 200px;
+    height: 100px;
+}
+
+input[type="text"] {
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

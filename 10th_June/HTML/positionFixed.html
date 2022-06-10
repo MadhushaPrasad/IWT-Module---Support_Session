@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        body {
+            height: 500vh;
+        }
+
+
+        div {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            background: blue;
+            border-radius: 100%;
+            z-index: 1000;
+        }
+
+        .div {
+
+            position: absolute;
+            bottom: 50%;
+            width: 60px;
+            height: 60px;
+            background: red;
+            border-radius: 100%;
+            z-index: -1000;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<div class="div"></div>
+</body>
+</html>
