@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--student details from-->
+<form action="StudentTable.html" method="get">
+    <h3>Student Form</h3>
+    <label for="id">Student ID</label> <br>
+    <input type="text" name="id" id="id" placeholder="Student ID"><br> <br>
+    <label for="name">Student Name</label>
+    <input type="text" name="name" id="name" placeholder="Student Name"> <br> <br>
+    <label for="dob">Student Date of Birth</label>
+    <input type="date" name="dob" id="dob" placeholder="Date Of Birth"> <br><br>
+    <label for="address">Student Address</label>
+    <textarea id="address" cols="2" rows="2"></textarea><br><br>
+    <label for="dob">Student Password</label>
+    <input type="password" name="ConfirmPassword" id="password" placeholder="Enter Password"> <br><br>
+
+
+    <select id="vehicle" name="vtype">
+        <option value="1">Car</option>
+        <option value="2">Bus</option>
+        <option value="3">Jeep</option>
+    </select>
+
+    <button type="submit">Submit</button>
+    <button type="button" onclick="sayHello()">Register</button>
+    <button type="reset">Reset data</button>
+</form>
+
+<p>
+    <a href="https://sliitfoss.org/">FOSS Community</a>
+</p>
+
+
+<div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci architecto dicta dignissimos
+        exercitationem itaque, libero maiores nobis omnis, placeat possimus quia quo repellat sapiente, sint vitae
+        voluptates voluptatibus? Mollitia?</p>
+
+    <input type="text" name="name" id="name01" placeholder="Name">
+    <div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function sayHello() {
+        alert("Hello");
+    }
+
+    function checkSelectVehicles() {
+        document.getElementById('vehicle').textContent;
+    }
+</script>
+</body>
+</html>
