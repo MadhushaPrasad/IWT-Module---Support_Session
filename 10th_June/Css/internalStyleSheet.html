@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal Style Sheet</title>
+    <style>
+        body, h1 {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /*main {*/
+        /*    position: absolute;*/
+        /*    width: 100%;*/
+        /*    height: 100%;*/
+        /*}*/
+
+        /*#div01 {*/
+        /*    width: 70px;*/
+        /*    height: 70px;*/
+        /*    background: blue;*/
+        /*    color: white;*/
+        /*}*/
+
+        /*#div02 {*/
+        /*    width: 70px;*/
+        /*    height: 70px;*/
+        /*    background: red;*/
+        /*    color: white;*/
+        /*}*/
+
+        /*#div03 {*/
+        /*    width: 70px;*/
+        /*    height: 70px;*/
+        /*    background: yellow;*/
+        /*    color: white;*/
+        /*}*/
+
+        /*position:absolute*/
+
+        /*#div04 {*/
+        /*    position: absolute;*/
+        /*    top: 0;*/
+        /*    right: 0;*/
+        /*    width: 70px;*/
+        /*    height: 70px;*/
+        /*    background: darkgreen;*/
+        /*    color: white;*/
+        /*}*/
+
+        /*position:relative*/
+
+        /*#div04 {*/
+        /*    position: relative;*/
+        /*    left: 70px;*/
+        /*    bottom: 70px;*/
+        /*    width: 70px;*/
+        /*    height: 70px;*/
+        /*    background: darkgreen;*/
+        /*    color: white;*/
+        /*}*/
+
+
+        /*content sectioning*/
+        main {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: orange;
+        }
+
+        p {
+            color: white;
+        }
+
+        .header {
+            position: relative;
+            top: 20px;
+            left: 35px;
+            width: 95%;
+            background: gray;
+            height: 50px;
+            border: darkgray;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        nav {
+            position: relative;
+            top: 30px;
+            left: 35px;
+            width: 200px;
+            height: 60%;
+            background: gray;
+            border: darkgray;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        footer {
+            background: yellow;
+        }
+
+        .footer {
+            position: relative;
+            width: 95%;
+            height: 80px;
+            left: 35px;
+            bottom: 0;
+            background: gray !important;
+            border: darkgray;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 75px;
+        }
+
+        aside {
+            position: absolute;
+            top: 115px;
+            right: 35px;
+            width: 200px;
+            height: 60%;
+            background: gray;
+            border: darkgray;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        section {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 50%;
+            height: 55%;
+            background: gray;
+            border: darkgray;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--html 5-->
+<main>
+    <header class="header">
+        <p>This is the header section</p>
+    </header>
+    <nav>
+        <p>This is the nav section</p>
+    </nav>
+    <section>
+        <p>This is the Section</p>
+        <header class="sectionHeader"></header>
+        <article></article>
+        <footer></footer>
+    </section>
+    <aside><p>This is the aside section</p></aside>
+    <footer class="footer" style="background: red"><p>This is the footer section</p></footer>
+</main>
+
+<!--<div id="div01">DIV 01</div>-->
+<!--<div id="div02">DIV 02</div>-->
+<!--<div id="div03">DIV 03</div>-->
+<!--<div id="div04">DIV 04</div>-->
+
+
+</body>
+</html>
