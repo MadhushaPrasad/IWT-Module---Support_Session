@@ -24,15 +24,15 @@
     function calculateSum() {
         var startNumber = document.getElementById('start').value;
         var endNumber = document.getElementById('end').value;
-
+        //
         var counter = parseInt(startNumber);
-
+        //
         var oddValues = [];
         var evenValues = [];
-
+        //
         var sumOfOdd = 0;
         var sumOfEven = 0;
-
+        //
         while (counter <= parseInt(endNumber)) {
             var number = counter % 2;
             if (number === 1) {
@@ -46,7 +46,7 @@
         }
         console.log(oddValues);
         console.log(evenValues);
-
+        //
         document.getElementById('oodValues').innerText = "ODD values from " + startNumber +
             " to " + endNumber + " are " + oddValues;
 

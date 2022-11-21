@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="row container-fluid d-flex justify-content-center align-items-center mt-5">
-    <form action="services/StudentService.php" method="get">
+    <form action="StudentService.php" method="post">
         <div class="form-group">
             <div class="row container d-flex justify-content-center align-items-center">
                 <div class="col-md-4">
