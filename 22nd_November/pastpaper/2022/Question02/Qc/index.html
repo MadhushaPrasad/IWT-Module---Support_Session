@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="">
+    <label for="userInput">Number</label> <br>
+    <input id="userInput" type="text">
+    <br>
+    <button onclick="checkNumberPerfect()" type="button">Calculate</button>
+</form>
+
+<script>
+    function checkNumberPerfect() {
+
+        let i = 1;
+
+        let sum = 0;// create variable for store sum value
+
+        let userInputNumber = document.getElementById("userInput").value;//get user input Number values from input element
+
+        let userNumber = parseInt(userInputNumber);//pass user input string value to integer value
+
+        //executes until the condition becomes false
+        while (i <= userNumber / 2) {
+            if (userNumber % i === 0) {
+                //calculates the sum of factors
+                sum = sum + i;
+            } //end of if
+            //after each iteration, increments the value of variable i by 1
+            i++;
+        } //end of while
+        //compares sum with the number
+        if (sum === userNumber) {
+            //prints if sum and n are equal
+            console.log(userNumber + " is a perfect number.");
+        } else { //end of if
+            //prints if sum and n are not equal
+            console.log(userNumber + " is not a perfect number.");
+        }
+    }
+</script>
+
+</body>
+</html>
