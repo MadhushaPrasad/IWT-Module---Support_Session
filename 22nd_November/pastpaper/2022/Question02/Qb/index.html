@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="">
+    <label for="radius">Radius</label> <br>
+    <input id="radius" type="text">
+    <br>
+    <label for="height">Height</label> <br>
+    <input id="height" type="text">
+    <br>
+    <label for="volume">Volume</label> <br>
+    <input id="volume" type="text">
+    <br>
+    <br>
+    <button onclick="calculate()" type="button">Calculate</button>
+</form>
+
+<script>
+    function calculate() {
+        let volume = 0;//create volume variable
+        let userInputRadius = document.getElementById("radius").value;//get user input radius values from input element
+
+        let radius = parseInt(userInputRadius);//pass user input string value to integer value
+
+        let userInputHeight = document.getElementById("height").value;//get user input height values from input element
+
+
+        let height = parseInt(userInputHeight);//pass user input string value to integer value
+
+        volume = (1 / 3) * Math.PI * Math.pow(radius, 2) * height; // calculate value
+
+        document.getElementById("volume").value = volume; // assign calculated value to volume input element
+    }
+</script>
+
+</body>
+</html>
