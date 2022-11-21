@@ -25,13 +25,12 @@
         let userNumber = parseInt(userInputNumber);//pass user input string value to integer value
 
         //executes until the condition becomes false
-        while (i <= userNumber / 2) {
-            if (userNumber % i === 0) {
+        for (i; i < userNumber; i++) {
+
+            if ((userNumber % i) === 0) {
                 //calculates the sum of factors
                 sum = sum + i;
-            } //end of if
-            //after each iteration, increments the value of variable i by 1
-            i++;
+            }
         } //end of while
         //compares sum with the number
         if (sum === userNumber) {
