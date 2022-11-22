@@ -4,7 +4,6 @@ setcookie("email", "madhushaPrasad21@gmail.com", time() + 60 * 60 * 24 * 7);
 setcookie("password", "*@1&2@$34@", time() + 60 * 60 * 24 * 7);
 ?>
 
-
 <!doctype html>
 <html lang="en">
 <head>

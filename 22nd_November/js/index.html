@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input class="lk" id="number" placeholder="Enter an integer" type="text">
+<button class="lk" id="btnCheck" type="button">Check Event</button>
+
+<br>
+<br>
+<hr>
+
+<label for="vehicles"> Vehicles</label>
+<select id="vehicles">
+    <option value="Car">Car</option>
+    <option value="Bus"> Bus</option>
+    <option value="Jeep">Jeep</option>
+</select>
+
+<button onclick="checkUserSelectedVehicel()" type="button">Check</button>
+<hr>
+
+<br>
+<br>
+
+
+<label for="numberOne"> Number One</label>
+<input id="numberOne" placeholder="Enter an integer" type="text">
+<label for="numberTwo"> Number two</label>
+<input id="numberTwo" placeholder="Enter an integer" type="text">
+
+<button id="calculate" type="button">Calculate</button>
+
+
+<script>
+    // check user input values with if-else controller
+    function checkValue() {
+        const inVal = document.getElementById("number").value;
+
+        // if else controller
+        if (inVal > 10) {
+            alert("User input Val grater than 10");
+        } else {
+            alert("User input Val less than 10");
+        }
+    }
+
+    // check user input values with switch controller
+    function checkUserSelectedVehicel() {
+        const vehicle = document.getElementById("vehicles").value;
+
+        switch (vehicle) {
+            case "Car":
+                console.log("Car");
+                break;
+            case "Bus":
+                console.log("Bus");
+                break;
+            case "Jeep":
+                console.log("Jeep");
+                break;
+            default:
+                console.log("default");
+                break;
+        }
+    }
+
+    const btnCheck = document.getElementById("btnCheck");
+
+    btnCheck.addEventListener("click", function () {
+        alert("AddEventListener");
+    });
+
+
+    const btnCalculate = document.getElementById("calculate");
+
+    btnCalculate.addEventListener("click", function () {
+        var sum = 0;
+
+        const numOne = document.getElementById("numberOne").value;
+        const numtwo = document.getElementById("numberTwo").value;
+
+        sum = parseInt(numOne) + parseInt(numtwo);
+
+        alert(sum);
+    })
+
+</script>
+<script src="index.js"></script>
+</body>
+</html>

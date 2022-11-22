@@ -59,9 +59,7 @@ foreach ($animals as $animal) {
             ?>
             </tbody>
         </table>
-
     </div>
 </div>
-
 </body>
 </html>
