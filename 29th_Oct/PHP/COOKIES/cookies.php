@@ -1,6 +1,6 @@
 <?php
 //setcookie(name,value,expiration);
-setcookie("email", "madhushaPrasad21@gmail.com", time() + 60 * 60 * 24 * 7);
+setcookie("email", "madhushaPrasad21@gmail.com", time() + 60 * 60 * 24 * 7 * 4 * 12);
 setcookie("password", "*@1&2@$34@", time() + 60 * 60 * 24 * 7);
 ?>
 
